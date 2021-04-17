@@ -11,7 +11,7 @@ def Simulation(days=300 , nd=30 , Rt=None , muT=4 , sizeV=1 , limit=1000000 , pp
     # We assume that the independence among those ones being infected.  The default value is set as muT = 4 (days).
     # sizeV: the dispersion parameter so that variance = mu + mu^2/size. The default value is set as sizeV =1.
     # limit: the target/study population size
-    # pp: the proportion of people with immunity in the population  ==> Nesbate Afradi ke Corona nemigirand
+    # pp: the proportion of people with immunity in the population
     # n0: the initial number of infectious persons.  
     # The default setting assumes one virus carrier/infectious person in the beginning, i.e., n0=1.
     kk = [0 for i in range(days)] # kk: daily new cases
